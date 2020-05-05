@@ -4,11 +4,11 @@
 
 ![Logo mamá digital](./assets/img/afiche.png)
 
-## Bienvenidos
+## Bienvenid@s al día de la madre al estilo Desafío Latam
 
-Bienvenidos a una nueva actividad en la academia desafío, en esta oportunidad vamos a celebrar el día de la persona mas importante en nuestra vida, **mi mamá**, bueno, nuestras mamitas, abuelitas, nuestras queridas madres o matriarcas de nuestro hogar.
+Les damos la bienvenida a una nueva actividad en la academia Desafío Latam, en esta oportunidad vamos a celebrar el día de la persona mas importante en nuestra vida, **mi mamá**, bueno, nuestras mamitas, abuelitas, nuestras queridas madres o matriarcas de nuestro hogar.
 
-El objetivo, es utilizar esta tarde, para compartir una nueva experiencia, divertirnos y aprender a hacer una página web.
+El objetivo es utilizar esta sesión para compartir una nueva experiencia, divertirnos y aprender a hacer una página web.
 
 Todos los pasos importantes que necesitas realizar se encuentran en esta guía, la revisaremos en conjunto y  haremos  las actividades. De esta forma aprenderemos en la práctica a construir una página web simple.
 
@@ -19,7 +19,7 @@ Trataremos de ir explicando cada término utilizado para que tengas un contexto 
 
 ## ¿Qué se necesita para este taller?
 
-Para el evento solo necesitas que tu computador tenga instalado, un navegador y un editor de texto. Y de tu parte  muchas ganas de participar y aprender.
+Para el evento solo necesitas que tu computador tenga instalado, un navegador y un editor de texto y de tu parte muchas ganas de participar y aprender.
 
 Como navegador puedes ocupar alguno de los siguiente:
 
@@ -27,26 +27,23 @@ Como navegador puedes ocupar alguno de los siguiente:
 - Safari
 - Chrome
 - Opera
+- Edge
 
 Como editor de texto te recomendamos:
 
-- [Atom](https://atom.io/)
+- [Atom](https://atom.io/).
+- [Sublime](https://www.sublimetext.com/).
+
 
 ***Con el editor de texto instalado pasemos a la siguiente sección***
 
-![](https://media.giphy.com/media/xT5LMFUpznpBe03zmU/giphy.gif)
+![](https://media.giphy.com/media/fJKG1UTK7k64w/giphy.gif)
 
 
-## ¿Qué es lo que vamos a crear?
+## ¿Qué es una página web?
 
-Vamos a hacer una página web, para compartir recuerdos con todo el mundo, y mostrar los buenos momentos, que tengamos con nuestra mamá, mamita, abuelita. Nuestra Madre o familia.
-La página se vera así:![web](./assets/img/web.png)¿Genial no?, Antes de continuar, vamos a definir algunos conceptos para acompañar la actividad con conocimientos básicos. ¡Vamos a ello!.
+Si buscamos en Google, posiblemente encontremos desde respuestas muy complejas a que la respuesta esta en nuestro corazón, así que definiremos de forma muy simple algunos términos.
 
-## Introducción a páginas web
-
-### ¿Qué es una página web?
-
-Si buscamos en google, posiblemente encontremos desde respuestas muy complejas a que la respuesta esta en nuestro corazón, así que definiremos de forma muy simple algunos términos.
 
 ***WebPage (página web):*** Es un documento que puede ser visto en la pantalla a través de un navegador como Firefox, Google Chrome, Internet Explorer. Solo es un documento.
 
@@ -56,71 +53,74 @@ Si buscamos en google, posiblemente encontremos desde respuestas muy complejas a
 
 ***CSS(Cascading Stylesheets):*** Significa hojas de estilo en cascada y es un lenguaje para definir estilos a las etiquetas HTML. CSS también puede definir como los elementos pueden ser mostrados.
 
-***JS (JavaScript):***  Es un lenguaje de programación que permite modificar dinámicamente elementos de HTML y CSS y de esta forma agregar componentes y comportamientos nuevos a la página web así como agregar diversos tipos de animaciones e interactuar con información de otros sitios web.
+***JS (JavaScript):***  es un lenguaje de programación que permite modificar dinámicamente elementos de HTMLL y CSS y de esta forma agregar componentes y comportamientos nuevos a la página web así como agregar diversos tipos de animaciones e interactuar con información de otros sitios web.
 
 ![](https://media.giphy.com/media/ZEobigiRBFc7S/giphy.gif)
 
-### Primeros pasos con una página web:
-
-Vamos a crear un proyecto totalmente desde cero, sigue los pasos y si tienes dudas, acércate a algún mentor, estamos acá para ayudar.
+## Creando nuestra primera página web:
 
 
-#### Primer paso :
+Vamos a crear un proyecto totalmente desde cero, sigue los pasos y si tienes dudas, acércate a algún mentor, guía de la actividad, ~~o aquella persona que te llamo la atención~~, estamos acá para ayudarte.
 
-Vamos a crear una carpeta nueva en el escritorio. Le puedes llamar como tu quieras, como ejemplo **"proyecto web"**, **"La mejor mamá"**, **"recuerdos"** etc.
 
-#### Segundo paso:
+### Primer paso :
 
-Luego abriremos la carpeta en **Atom** (tú editor de texto).
+Vamos a crear una carpeta nueva en el Escritorio. Le puedes llamar como tu quieras, como ejemplo "proyecto web".
+
+### Segundo paso:
+
+Luego abrimos la carpeta "proyecto web" en Atom (tú editor de texto).
 
 - Puede ser arrastrando la carpeta hacia el editor de texto
 - O abriéndola desde el editor de texto.
 
-#### Tercer paso:
+### Tercer paso:
 
-Ahora crearemos un archivo nuevo llamado `index.html` (debemos presionar sobre la carpeta del proyecto con el botón secundario y utilizar la opción "New File").
+Ahora crearemos un archivo nuevo llamado index.html  ( debemos presionar sobre la carpeta del proyecto el botón secundario y utilizar la opción "New File".
 
-![new file con Atom](./assets/img/New_file_atom.png)
+![new file con Atom](assets/New_file_atom.png)
 
 Luego:
 
 Llamaremos a nuestro primer archivo
 
-
-```
+~~~
 index.html
-```
+~~~
 
-![imagen de Atom con index.html](./assets/img/Nuevo_archivo_Atom.png)
 
-Presionamos *enter* y el archivo quedó guardado como **index.html**
+![imagen de Atom con index.html](assets/Nuevo_archivo_Atom.png)
 
-#### Cuarto Paso:
+Presionamos enter y el archivo quedó guardado como index.html
+
+### Cuarto Paso:
 
 Ahora escribiremos, en nuestro archivo:
 
-```html
-Feliz día MAMÁ!!!
-```
+~~~html
+¡Feliz de Mamita!
+~~~
 
-Luego guardamos el archivo, para hacerlo puedes ir a la opción `File / save`, pero te recomiendo que utilices el atajo del teclado.
+Luego guardamos el archivo, para hacerlo puedes ir a la opción File / save, pero te recomiendo que utilices el atajo del teclado.
 
 ***Ctrl + s (Windows, Linux) o  cmd + s (mac).***
 
-#### Quinto paso
+### Quinto paso
 
-Ahora podemos abrir este archivo con nuestro navegador, para lograrlo iremos a la carpeta donde está guardado y podemos arrastrarlo con el mouse dentro del navegador, o hacerle doble click.
+Ahora podemos abrir este archivo con nuestro navegador, para lograrlo iremos a la carpeta donde está guardado y podemos arrastrarlo con el mouse dentro del navegador.
 
 Al abrirlo en el navegador te debería aparecer algo como esto:
 
-![imagen feliz día del](./assets/img/FirstPage.png)
+![imagen feliz día del](assets/img/FirstPage.png)
 
+***¡¡Felicidades!!  Ya estás escribiendo tú primera página web***
 
-***Felicidades!!	Ya estás escribiendo tú primera página web!!!*** Aun no tiene el aspecto esperado y aparecen algunos carácteres extraños, pero vamos paso a paso.
 
 ### Recapitulemos
 
-Fueron solo 5 pasos, Fácil ¿cierto?.
+Fueron solo 5 pasos, mucho más fácil que hacer un desayuno rico para las madres en su día, ¿cierto?.
+
+<sub><sup>pd: Este comentario fue realizado sin el objetivo de generar presión en los participantes que tienen una madre que se esfuerza todo el año por ell@s y que lo único que espera es un buen desayuno en su día. wink</sup></sub>
 
 Respondamos algunas preguntas.
 
@@ -130,7 +130,9 @@ Porque es una convención, se subentiende que es el archivo índice que inicia u
 
 ***¿Por qué la extensión del archivo es .html?***
 
-El que sea .html dice que es un archivo que se interpretará como HTML, es decir el navegador abrirá y leerá su contenido, En la siguiente sección aprenderemos mas sobre HTML.
+El que sea .html dice que es un archivo que se interpretará como HTML, es decir el navegador abrirá y leerá su contenido, En la siguiente sección aprenderemos más sobre HTML.
+
+Ahora podemos crear una página web para honrar nuestras madres.
 
 ## ¿Qué es HTML?
 
@@ -142,16 +144,24 @@ HTML significa "HyperText Markup Language" - en español, **Lenguaje de Marcas**
 
 HTML es un lenguaje de **marcas**, cada una comenzando con `<` y terminando con `>`. Estas etiquetas definen **propiedades**, la **importancia** y el **significado semántico** del contenido que envuelven.
 
-![imagen HTML lenguaje de marcas](./assets/img/html_marcas.png)
+![imagen html lenguaje de marcas](assets/html_marcas.png)
 
 Entonces una página web es un archivo que contiene un conjunto de marcas ó etiquetas y el navegador lee (interpreta) estas marcas y con esa información  muestra las páginas web.
 
-##  ¿Que es la Estructura HTML?
+# Trabajemos.
+
+La idea es que este proyecto lo trabajen en conjunto con su madre. Vamos a construir un sitios con ~~las fotos más vergonzosas~~ mejores recuerdos de sus madres.
+
+Aprovechemos de crear una oda a la persona que tenemos a nuestro lado, una página con su descripciones y gustos, o simplemente porque la aman tanto, seamos creativos.
+
+
+##  ¿Qué es la Estructura HTML?
 
 Un archivo HTML para poder ser interpretado correctamente deber tener una estructura. Esta estructura básica consiste en una **cabeza** (*head*) y un **cuerpo** (*body*), la cabeza contiene toda la información que es para el **navegador**, el cuerpo de la página contiene toda la información que es para el **usuario**. Dentro de las etiquetas HTML se encuentra todo el contenido de la página, y dentro de ellas están los dos bloques previamente mencionados.
 La estructura de una página en HTML es la siguiente:
 
-```html<!DOCTYPE html><html>
+```html
+<!DOCTYPE html><html>
   <head>
     <title></title>
   </head>
@@ -176,9 +186,9 @@ Primero trabajaremos ingresando información que nuestra página tiene que indic
 ### Estructura
 
 Le asignaremos un estructura a nuestro `index.html`.
-1-	En nuestro archivo `index.html`, borra el mensaje que habíamos creamos.
+1-  En nuestro archivo `index.html`, borra el mensaje que habíamos creado.
 
-2-	Escribe en la primera línea ```html``` y presiona *enter*.
+2-  Escribe en la primera línea ```html``` y presiona *enter*.
 
 Gracias a las cualidades de nuestro editor de texto, al presionar **enter** luego de escribirlo, nos autocompleta la estructura base del archivo.
 
@@ -188,24 +198,26 @@ Ahora ya tenemos la estructura de nuestra página.
 
 ![html-Autocompletado](./assets/img/html_estructura01.png)
 
-
-!No olvides guardar la página¡, para ello utiliza,  **Ctrl + s(Windows, Linux)**  o **cmd + s(Mac)** , Atom borrará el punto azul en el nombre de nuestro archivo cuando esta guardado.
+¡No olvides guardar la página!, para ello utiliza,  **Ctrl + s(Windows, Linux)**  o **cmd + s(Mac)** , Atom borrará el punto azul en el nombre de nuestro archivo cuando esta guardado.
 
 ### El título de la página
 
 Ahora vamos a añadir un título a la página, para ello vamos a rellenar información en el **head** de nuestro archivo `index.html`.
+
 Este título lo veremos en el navegador, posiblemente en la pestaña(tab) o barra superior.
 
-Para hacerlo, escribe entre las marcas `<title>` y `</title>` el titulo que deseas ponerle a tu página.
+Para hacerlo, escribe entre las marcas `<title>` y `</title>` el título que deseas ponerle a tu página.
 
-En mi caso dejare el título **Día de la mamá**
+> Ponle título a tu página , ingresando el nombre de tú compañer@. Esto para que no lo olvides!!
+
+En mi caso dejaré el título **Mi primera página web**
 
 ```html
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Día de la madre</title>
+    <title>Mi primera página web</title>
   </head>
   <body>
 
@@ -221,22 +233,23 @@ Si guardamos, y recargamos el navegador, el resultado será el siguiente:
 
 >El título tiene mucho valor en el SEO(search engine optimization) de un sitio web, esto quiere decir que los títulos son importantes para posicionar una página en un buscador.
 
-
 ### Eliminando caracteres extraños
-Como recuerdan, nuestro primer mensaje tenia caracteres extraños donde se deberían mostrar tildes o letras Ñ. Esto se arregla con la etiqueta `<meta charset="utf-8">`. Esta indica que la codificación de la página muestre estos caracteres.
+Como recuerdan, nuestro primer mensaje tenía carácteres extraños donde se deberían mostrar tildes o letras Ñ. Esto se arregla con la etiqueta `<meta charset="utf-8">`. Esta indica que la codificación de la página muestre estos carácteres.
 
-También podemos ver que hay algo nuevo que no habíamos visto en otras etiquetas, en primer lugar la marca no se cierra, esto ocurre por una regla simple, si la etiqueta no tiene contenido, no se cierra, y para pasarle valores adicionales se ocupan **atributos** y **valores**, En este caso `charset` sería el *atributo* y `utf-8` el *valor*.
+También podemos ver que hay algo nuevo que no habíamos visto en otras etiquetas, en primer lugar la marca no se cierra, esto ocurre por una regla simple, si la etiqueta no tiene contenido, no se cierra, y para pasarle valores adicionales se ocupan **atributos** y **valores**, en este caso `charset` sería el *atributo* y `utf-8` el *valor*.
 
 ## Trabajando en el Body
 
 ### Etiquetas Básicas:
 
 Una etiqueta en HTML es un elemento que define como se comporta y muestra el contenido que alberga, vamos a utilizar algunas etiquetas básicas del lenguaje para darle sentido a nuestra página.
+
 Todo lo que veremos desde ahora se debe escribir dentro de **body** *(hasta que se indique lo contrario), por ende dentro de las etiquetas* `<body>` `</body>`
 
-### Títulares y Subtitulares:
+### Titulares y Subtitulares:
 
-Una página web también tiene títulares y subtitulares, al igual que un periódico!, la marca para los titulares es `<h>` **más** un número del `1` al `6`. Siendo `<h1>` para el titular principal o con mayor importancia y `<h6>` para el subtítulo del subtítulo del subtítulo del subtítulo del subtítulo del título!.
+Una página web también tiene titulares y subtitulares, al igual que un periódico, la marca para los titulares es `<h>` **más** un número del `1` al `6`. Siendo `<h1>` para el titular principal o con mayor importancia y `<h6>` para el subtítulo del subtítulo del subtítulo del subtítulo del subtítulo del título.
+
 Por ejemplo escribamos en nuestro archivo index.html:
 
 ```html
@@ -244,7 +257,7 @@ Por ejemplo escribamos en nuestro archivo index.html:
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Día de la madre</title>
+    <title>Mi primera página web</title>
   </head>
   <body>
     <h1>Titúlo 1</h1>
@@ -258,18 +271,17 @@ Por ejemplo escribamos en nuestro archivo index.html:
 Guardemos los cambios, refrescamos el navegador y se debería ver algo como esto:
 
 ![imagen de titulares](./assets/img/titulos01.png)
-Se puede ver que el titular `<h6>` es muy pequeño, incluso menor que otros elementos que veremos a continuación.Ahora vamos a añadir el título de muestra página, Así que eliminemos los títulares que ingresamos y escribamos lo siguiente.
-
+Se puede ver que el titular `<h6>` es muy pequeño, incluso menor que otros elementos que veremos a continuación. Ahora vamos a añadir el título de muestra página, así que eliminemos los titulares que ingresamos y escribamos lo siguiente.
 
 ```html
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Día de la Mamá</title>
+    <title>Mi primera página web</title>
   </head>
   <body>
-    <h1>Mis recuerdos con mamá</h1>
+    <h1>Mi primera página web</h1>
   </body>
 </html>
 ```
@@ -278,144 +290,174 @@ Deberíamos ver algo como esto:
 
 ![](./assets/img/tituloweb.png)
 
+> En tu caso utilizaremos el titular `<h1>TU_NOMBRE y NOMBRE_COMPADER@  celebrando el día de la mamá</h1>`
 
-Aun estamos muy lejos de la página que queremos lograr, pero vamos avanzando.
+Aún estamos muy lejos de la página que queremos lograr, pero vamos avanzando.
 
 ### Quiebre de línea con `<br>`
 
-Si observamos la página que queremos lograr, el titular principal esta en dos líneas, pareciera que son dos etiquetas, pero es solo una. Para lograr este resultado utilizaremos una etiqueta especial llamada "break line" `<br>`, agreguémosla en nuestro código.
+Si observamos la página que queremos lograr, el titular principal esta en dos líneas, pareciera que son dos etiquetas, pero es sólo una. Para lograr este resultado utilizaremos una etiqueta especial llamada "break line" `<br>`, agreguémosla en nuestro código.
 
 ```html
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Día de la madre</title>
+    <title>Mi primera página web</title>
   </head>
   <body>
-    <h1>Mis recuerdos con <br>mamá</h1>
+    <h1>Mi primera <br>página web</h1>
   </body>
 </html>
-
 ```
+
 Guardamos y recargamos la página en el navegador, deberíamos ver algo como esto:
 
 ![br](./assets/img/br.png)
 
-Genial!, ahora tenemos el titular de nuestra página, solo nos falta añadirle un detalle. 
+> Para nuestro caso quedará `<h1>TU_NOMBRE y NOMBRE_COMPADER@ <br> celebrando el día de la mamá</h1>`
 
-La frase antes de "mamá" lleva una tipografía mas pequeña que el resto, para mas adelante añadirle este efecto, vamos a envolverla en una etiqueta llamada "span", nuestro código debería quedar así:
+
+¡Genial!, ahora tenemos el titular de nuestra página, sólo nos falta añadirle un detalle. 
+
+La frase antes de "página" lleva una tipografía más pequeña que el resto, para más adelante añadirle este efecto, vamos a envolverla en una etiqueta llamada "span", nuestro código debería quedar así:
 
 ```html
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Día de la madre</title>
+    <title>Mi primera página web</title>
   </head>
   <body>
-    <h1><span>Mis recuerdos con </span><br>mamá</h1>
+    <h1><span>Mi primera</span><br>página web</h1>
   </body>
 </html>
 ```
 
-Este cambio no por el momento no supondrá ningún cambio visual.
+Este cambio, por el momento, no supondrá ningún cambio visual.
+
+> Para nuestro caso quedará `<h1><span>TU_NOMBRE y NOMBRE_COMPADER@</span><br> celebrando el día de la mamá</h1>`
 
 ## Continuando con la página.
 
-Para los siguientes pasos, nos fijaremos en la página de muestra. Luego de los títulos, vienen varias tarjetas con una foto, un títular y un párrafo, aprenderemos a crear estos elementos.
+Para los siguientes pasos, nos fijaremos en la página de muestra. Luego de los títulos, vienen varias tarjetas con una foto, un titular y un párrafo, aprenderemos a crear estos elementos.
 
-### Nuevos títulares
+> En este momento comenzaremos a construir la página de nuestr@ compañer@. Vamos a conversar un rato y preguntarle sus intereses, hobbies, trabajo, etc. Lo que quieras, el objetivo es ~~conocer bien~~ armar un sitio interesante para el otro. Si son pareja, quizás es el momento de contarse los secretos ocultos (si es que aún quedan) o recopilar los momentos más divertidos de la relación.
 
-Ya sabemos crear títulares, así que manos a la obra, crearemos 9 títulares `h5` en nuestras tarjetas. El contenido queda a tu elección, yo seguiré el ejemplo de la página mostrada al comienzo. Tu **HTML** debería verse así.
+
+### Nuevos titulares
+
+Ya sabemos crear titulares, así que manos a la obra, crearemos 9 titulares `h5` en nuestras tarjetas. El contenido queda a tu elección, yo seguiré el ejemplo de la página mostrada al comienzo. Tu **HTML** debería verse así.
+
+> ¡Elige los titulares que mejor describan a tu pareja! ¿Descubriste algún dato interesante?
 
 ```html
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>Día de la madre</title>
+     <meta charset="utf-8">
+    <title>Mi primera página web</title>
   </head>
   <body>
-    <h1><span>Mis recuerdos con </span><br>mamá</h1>
+    <h1><span>Mi primera</span><br>página web</h1>
 
-    <h5>Yo en la guata de mamá</h5>
+    <h5>Lorem ipsum dolor sit amet</h5>
 
-    <h5>Paseo al jardín Botánico</h5>
+    <h5>Lorem ipsum dolor sit amet</h5>
 
-    <h5>Aprendiendo a andar en moto</h5>
+    <h5>Lorem ipsum dolor sit amet</h5>
 
-    <h5> La vez que me perdí</h5>
+    <h5>Lorem ipsum dolor sit amet</h5>
 
-    <h5>Mi caída en bicicleta</h5>
+    <h5>Lorem ipsum dolor sit amet</h5>
 
-    <h5>Comida familiar en la casa de la Abuela</h5>
+    <h5>Lorem ipsum dolor sit amet</h5>
 
-    <h5>Mi primer encuentro con la chala</h5>
+    <h5>Lorem ipsum dolor sit amet</h5>
 
-    <h5>Mi primera desilusión amorosa</h5>
+    <h5>Lorem ipsum dolor sit amet</h5>
 
-    <h5>Cuando se acabó el colegio</h5>
-  
+    <h5>Lorem ipsum dolor sit amet</h5>
+
+    <h5>Lorem ipsum dolor sit amet</h5>
+
+    <h5>Lorem ipsum dolor sit amet</h5>
+
   </body>
 </html>
 ```
 
 Si guardas y recargas la página, deberías ver algo similar a esto:
 
-![](./assets/img/Titularesh3.png)
+![](./assets/img/titularesh3.png)
 
-### Párrafos y Lorem Ipsum.
+### Párrafos y Lorem ipsum.
 
 Los párrafos son otra etiqueta *HTML* muy útil para introducir texto al interior de nuestra página.
 
-Podemos observar que en las tarjetas de nuestra página va una descripción, este texto lo ingresaremos en párrafos.
-vamos a ello.
+Podemos observar que en las tarjetas de nuestra página va una descripción, este texto lo ingresaremos en párrafos. Vamos a ello.
 
-Debajo del primer titular `<h5>` escribe `p` y utiliza el tabulador. El autocompletado hará su trabajo y creara una etiqueta así:
+Debajo del primer titular `<h5>` escribe `p` y utiliza el tabulador. El autocompletado hará su trabajo y creará una etiqueta así:
 
 ```html
-	<p>    </p>
+  <p>    </p>
 ```
-Escribe dentro de estos párrafos una descripción del recuerdo mencionado en el titular. Por motivos de tiempo, solo completaremos la descripción de 3 recuerdos. Los otros parrafos, los vamos autocompletar con un texto de prueba llamado "Lorem ipsum". Atom nos facilitara la vida ya que esta integrado en su autocompletado. 
+Escribe dentro de estos párrafos una descripción del recuerdo mencionado en el titular. Por motivos de tiempo, sólo completaremos la descripción de 3 recuerdos. Los otros párrafos, los vamos autocompletar con un texto de prueba llamado "Lorem ipsum". Atom nos facilitará la vida ya que está integrado en su autocompletado. 
 
 Para usarlo, dentro de un párrafo, escribe "lorem" y utiliza el tabulador, de forma automática se escribirá un texto de prueba.
 
 ```html
-<h5>Yo en la guata de mamá</h5>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h5>Cocinando</h5>
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 ```
 
-Si completas todos los párrafos, tu código y pagina deberían verse así.
+Si completas todos los párrafos, tu código y página debería verse así.
 
 ```html
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>Día de la madre</title>
+     <meta charset="utf-8">
+    <title>Mi primera página web</title>
   </head>
   <body>
-    <h1><span>Mis recuerdos con </span>mamá</h1>
+    <h1><span>Mi primera</span><br>página web</h1>
 
-    <h5>Yo en la guata de mamá</h5>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h5>Paseo al jardín Botánico</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h5>Aprendiendo a andar en moto</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h5> La vez que me perdí</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h5>Mi caida en bicicleta</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h5>Comida familiar en la casa de la Abuela</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h5>Mi primer encuentro con la chala</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h5>Mi primera desilución amorosa</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h5>Cuando se acabó el colegio</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+    <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id soluta ut repellendus recusandae incidunt error, alias sequi quia, pariatur ex, officiis vitae officia rerum nam modi harum minima, tenetur ipsa.</p>
+
+
   </body>
 </html>
 ```
@@ -427,28 +469,33 @@ Si guardamos la página y recargamos el navegador, deberíamos ver algo como est
 
 ### Imágenes:
 
-Hasta el momento solo hemos utilizado texto, así que pondremos algunas imágenes. La etiqueta para agregar imágenes es
+Hasta el momento sólo hemos utilizado texto, así que pondremos algunas imágenes. La etiqueta para agregar imágenes es
 
 ~~~html
 <img src=" " alt=" ">
 ~~~
 
-Donde `src` es *source* , que en español es fuente, que es un **atributo** de la etiqueta de imagen. `alt` es otro **atributo** de la etiqueta `img`, que te permite describir(brevemente) la imagen en caso de que no se pueda cargar por escasez de internet, o en navegadores de solo texto.
+Donde `src` es *source* , que en español es fuente, que es un **atributo** de la etiqueta de imagen. `alt` es otro **atributo** de la etiqueta `img`, que te permite describir(brevemente) la imagen en caso de que no se pueda cargar por escasez de internet, o en navegadores de sólo texto.
 
 Esta etiqueta no necesita cerrarse como lo hacen las anteriores.
 
 Para agregar imágenes utilizando esa etiqueta puedes hacerlo de dos maneras:
 
--Directo de una URL de internet.
--Desde una imagen desde tu proyecto (desde tu computador).
+- Directo de una URL de internet.
+- Desde una imagen desde tu proyecto (desde tu computador).
 
-### Imágenes desde internet:
+### Imágenes desde Internet:
 
-Podremos ingresar cualquier foto que este en internet si utilizamos su URL. URL quiere decir que es una dirección que apuntara hacia ese recurso.
+Podremos ingresar cualquier foto que este en Internet si utilizamos su URL. URL quiere decir que es una dirección que apuntará hacia ese recurso.
 
-Puedes ir a tu red social y elegir una foto, abrirla y con el botón secundario elegir en el menú, "copiar ruta de la imagen". También, puedes buscas en Google la imagen que quieras y también seleccionar "copiar dirección de la imagen"
+>Añade una foto de tu compañer@ de una Red Social o de algo que encuentres en Internet que la o lo describa bien.
+
+Anda a la red social y elegir una foto, abrirla y con el botón secundario elegir en el menú, "copiar ruta de la imagen". También, puedes buscar en Google la imagen que quieras y también seleccionar "copiar dirección de la imagen"
+
 Con este paso, tendremos la URL de la foto.
-![copiar ruta](./assets/img/img_facebook.png)Esa url debes copiarla y pegarla dentro de los `" "` del source de la etiqueta `img`yo ingresare esta foto de ejemplo antes de mi primer `h5`.
+![copiar ruta](./assets/img/img_facebook.png) 
+
+Esa url debes copiarla y pegarla dentro de los `" "` del source de la etiqueta `img`yo ingresaré esta foto de ejemplo antes de mi primer `h5`.
 
 Mi código se debe ver así: 
 
@@ -457,103 +504,118 @@ Mi código se debe ver así:
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Día de la madre</title>
+    <title>Mi primera página web</title>
   </head>
   <body>
-    <h1><span>Mis recuerdos con </span>mamá</h1>
+    <h1><span>Mi primera</span><br>página web</h1>
+
     <img src="https://scontent.fscl6-1.fna.fbcdn.net/v/t1.0-9/30571957_2153329024941595_8643680236489146368_n.jpg?_nc_cat=0&oh=01f6ce80a424ed30709ccef1aeabfe82&oe=5B948E5A">
-    <h5>Yo en la guata de mamá</h5>
+    <h5>Cocinando</h5>
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h5>Paseo al jardín Botánico</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h5>Aprendiendo a andar en moto</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h5> La vez que me perdí</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h5>Mi caida en bicicleta</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h5>Comida familiar en la casa de la Abuela</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h5>Mi primer encuentro con la chala</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h5>Mi primera desilución amorosa</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h5>Cuando se acabó el colegio</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h5>Arreglando la casa</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+    <h5>Haciendo Ejercicios</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h5>Cuando hicimos el aseo "juntos"</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h5>Asado en el parque</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h5>Mis primeros cuentos</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h5>Fiesta de Halloween</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h5>Cenando Juntos</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h5>Cuando gané por primera vez</h5> 
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </body>
 </html>
-
 ```
 
  Guardo y recargo la página se vera así.
 ![image_añadida](./assets/img/facebook.png)
-Quizas la imagen que añadiste tenga un tamaño muy grande, no te preocupes, esto lo arreglaremos despues.
+Quizás la imagen que añadiste tenga un tamaño muy grande, no te preocupes, esto lo arreglaremos después.
 
-##### Imágenes desde el computador:Tambien vamos a añadir imagenes de forma local. Primero crearemos una carpeta para organizar nuestros archivos externos.
-Crea **dentro** de tu proyecto una carpeta con el nombre *Assets* y en su interior otra llamada *img*, Sera en esta carpeta donde vamos a añadir las imagenes que queramos en nuestra página.
+##### Imágenes desde el computador: También vamos a añadir imagenes de forma local. Primero crearemos una carpeta para organizar nuestros archivos externos.
+
+Crea **dentro** de tu proyecto una carpeta con el nombre *assets* y en su interior otra llamada *img*, será en esta carpeta donde vamos a añadir las imagenes que queramos en nuestra página.
 
 ~~~
 proyecto_web
-└──index.html	
-assets
+└──index.html 
+/assets/
   └───img
       └─── ejemplo.jpg
 ~~~
 
 
-* Las imagenes puede ser formato jpg, png, jpeg. Es importante que las imágenes estén dentro de la carpeta img, para luego poder buscarlas en esa ruta.
+* Las imágenes puede ser formato jpg, png, jpeg. Es importante que las imágenes estén dentro de la carpeta img, para luego poder buscarlas en esa ruta.
 
-En mi caso, yo tengo todas las imagenes que añadire en la página, si quieren utilizar estas mismas, las pueden descargar de [Acá](https://www.dropbox.com/sh/bhrvh94llnizj6j/AACxQwwFN1uWGIr6uMdg1_Yja?dl=0).
+En mi caso, yo tengo todas las imágenes que añadiré en la página, si quieren utilizar estas mismas, las pueden descargar de [Acá](https://www.dropbox.com/sh/bhrvh94llnizj6j/AACxQwwFN1uWGIr6uMdg1_Yja?dl=0).
+
+>Le puedes pedir a tu compañer@ que te comparta sus imágenes favoritas o que te ayude a descargarlas de Internet
 
 Si descargan esta carpeta, deben añadirla en `assets/img`, su carpeta debería verse como esta imágen.
 
 ![](./assets/img/imgdirectory.png)
 
 
-Ya con las fotos incorporadas, voy añadir las primeras, luegos ustedes ya sabran como hacer el resto. 
-Mi código esta así:
+Ya con las fotos incorporadas, voy añadir las primeras, luego ustedes ya sabrán como hacer el resto. Mi código está así:
 
 ```html
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Día de la madre</title>
-  </head>
-  <body>
-    <h1><span>Mis recuerdos con </span>mamá</h1>
+    <head>
+      <meta charset="utf-8">
+      <title>Mi primera página web</title>
+    </head>
+    <body>
+    <h1><span>Mi primera</span><br>página web</h1>
 
-    <img src="./assets/img/img-1.png" alt="guatita">
-    <h5>Yo en la guata de mamá</h5>
+    <img src="./assets/img/img-1.jpg" alt="cocinando">
+    <h5>Cocinando</h5>
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <img src="./assets/img/img-2.png" alt="mamáybebé">
-    <h5>Paseo al jardín Botánico</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img src="./assets/img/img-2.jpg" alt="arreglando">
+    <h5>Arreglando la casa</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <img src="./assets/img/img-3.png" alt="mamáymoto">
-    <h5>Aprendiendo a andar en moto</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <img src="./assets/img/img-3.jpg" alt="ejercicios">
+      <h5>Haciendo Ejercicios</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <img src="./assets/img/img-4.png" alt="family">
-    <h5> La vez que me perdí</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <img src="./assets/img/img-4.jpg" alt="haciendo el aseo">
+    <h5>Cuando hicimos el aseo "juntos"</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <h5>Mi caida en bicicleta</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <img src="./assets/img/img-5.jpg" alt="en el parque"> 
+    <h5>Asado en el parque</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <h5>Comida familiar en la casa de la Abuela</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <img src="./assets/img/img-6.jpg" alt="cuentos">   
+    <h5>Mis primeros cuentos</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <h5>Mi primer encuentro con la chala</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <img src="./assets/img/img-7.jpg" alt="Halloween">
+    <h5>Fiesta de Halloween</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <h5>Mi primera desilución amorosa</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <img src="./assets/img/img-8.jpg" alt="cenando">
+    <h5>Cenando Juntos</h5>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <h5>Cuando se acabó el colegio</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+    <img src="./assets/img/img-9.jpg" alt="ganando">   
+    <h5>Cuando gané por primera vez</h5> 
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </body>
 </html>
 ```
@@ -561,11 +623,12 @@ y guardando y recargando la página esta así:
 
 ![](./assets/img/images.png)
 
-En este ejemplo yo añadi a las imagenes a la carpeta */assets/images/*.
+En este ejemplo yo añadí a las imágenes a la carpeta */assets/assets/*.
+
 Entonces para agregarla en mi web se copia la ruta de donde se encuentra mi imagen en el `src` de la siguiente manera:
 
 ~~~html
-<img src="./assets/img/img-1.png" alt="En la guatita">
+<img src="./assets/img/img-1.jpg" alt="Descripción Imagen">
 ~~~
 
 Ahora te toca a ti poner una imagen sobre cada uno de los titulares `h5`.
@@ -573,77 +636,74 @@ Ahora te toca a ti poner una imagen sobre cada uno de los titulares `h5`.
 
 ## Recapitulemos
 
-Hagamos un pequeño resumen de lo que hemos aprendido:Si todo salió bien, Nuestro código debería verse así.
+Hagamos un pequeño resumen de lo que hemos aprendido: Si todo salió bien, nuestro código debería verse así:
 
 ```html
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Día de la madre</title>
-  </head>
-  <body>
-    <h1><span>Mis recuerdos con </span>mamá</h1>
+    <head>
+      <meta charset="utf-8">
+      <title>Mi primera página web</title>
+    </head>
+    <body>
+      <h1><span>Mi primera</span><br>página web</h1>
+        
+      <img src="./assets/img/img-1.jpg" alt="cocinando">
+      <h5>Cocinando</h5>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <img src="./assets/img/img-1.png" alt="guatita">
-    <h5>Yo en la guata de mamá</h5>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img src="./assets/img/img-2.jpg" alt="arreglando">
+      <h5>Arreglando la casa</h5>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <img src="./assets/img/img-2.png" alt="mamáybebé">
-    <h5>Paseo al jardín Botánico</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img src="./assets/img/img-3.jpg" alt="ejercicios">
+      <h5>Haciendo Ejercicios</h5>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <img src="./assets/img/img-3.png" alt="mamáymoto">
-    <h5>Aprendiendo a andar en moto</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img src="./assets/img/img-4.jpg" alt="haciendo el aseo">
+      <h5>Cuando hicimos el aseo "juntos"</h5>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <img src="./assets/img/img-4.png" alt="family">
-    <h5> La vez que me perdí</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img src="./assets/img/img-5.jpg" alt="en el parque"> 
+      <h5>Asado en el parque</h5>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <img src="./assets/img/img-5.png" alt="family">
-    <h5>Mi caida en bicicleta</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img src="./assets/img/img-6.jpg" alt="cuentos">   
+      <h5>Mis primeros cuentos</h5>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <img src="./assets/img/img-6.png" alt="family">
-    <h5>Comida familiar en la casa de la Abuela</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img src="./assets/img/img-7.jpg" alt="Halloween">   
+      <h5>Fiesta de Halloween</h5>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <img src="./assets/img/img-7.png" alt="family">
-    <h5>Mi primer encuentro con la chala</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img src="./assets/img/img-8.jpg" alt="cenando">   
+      <h5>Cenando Juntos</h5>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <img src="./assets/img/img-8.png" alt="family">
-    <h5>Mi primera desilución amorosa</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-    <img src="./assets/img/img-9.png" alt="family">
-    <h5>Cuando se acabó el colegio</h5>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-  </body>
+      <img src="./assets/img/img-9.jpg" alt="ganando">
+      <h5>Cuando gané por primera vez</h5> 
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </body>
 </html>
 ```
 
-Esto se vería así:![imagen resumen](./assets/img/htmlbasic.png)
-
 *¡Hemos hecho todos estos pasos!*
 
-
-- Aprendimos a poner titulo a la página
+- Aprendimos a poner título a la página
 - Luego aprendimos a poner titulares y subtitulares.
 - Añadimos párrafos.
-- Aprendimos a poner imágenes de internet o locales.
+- Aprendimos a poner imágenes de Internet o locales.
 
-***Revisa si tienes algo parecido a esto,   Felicidades¡ haz avanzado mucho , recuerda que si tienes dudas pide ayuda a los mentores.***
+***Revisa si tienes algo parecido a esto,   ¡Felicidades! haz avanzado mucho , recuerda que si tienes dudas pide ayuda a los mentores.***
 
 
 ## Ordenando nuestra página con `header` `div`,`main` y `footer`
 
-Tal como nuestra mamá nos dice siempre que ordenemos nuestra pieza, también deben estarlo nuestras páginas.
+Nuestra página debe estar ordenada siempre.
+
 Actualmente nuestro contenido esta dentro de la etiqueta `body` y no se distinguen las distintas secciones.
 
-Ahora conoceremos las etiquetas que nos ayudaran a segmentar  y ordenar la pieza, bueno no tanto, solo el código de la página.
+Ahora conoceremos las etiquetas que nos ayudaran a segmentar  y ordenar la pieza, bueno no tanto, sólo el código de la página.
 
 ### Header
 
@@ -659,208 +719,238 @@ Como en este ejemplo:
 
 ![header](./assets/img/header.gif)
 
-### main
+*Ojo que este ejemplo es nuestro taller anterior, pero es la misma dinámica*
 
-La etiqueta main nos indicara el contenido principal de nuestra página, en nuestro caso serán las tarjetas que contendrán las fotos y nuestros recuerdos.
+### Main
 
-Lo haremos igual que con la etiqueta anterior, solo que esta vez agruparemos todo el resto del código.
+La etiqueta main nos indicará el contenido principal de nuestra página, en nuestro caso serán las tarjetas que contendrán las fotos y nuestros recuerdos.
+
+Lo haremos igual que con la etiqueta anterior, sólo que esta vez agruparemos todo el resto del código.
 
 Como en este ejemplo:
 
 ![header](./assets/img/main.gif)
+*Ojo que este ejemplo es nuestro taller anterior, pero es la misma dinámica*
 
 ### Footer
 
-Si observamos la página de ejemplo nos daremos cuenta que tenemos un lindo mensaje en la parte inferior de la página, todo esto estará al interior de una etiqueta llamada `footer` la cual agrupara el código que vamos a incluir.
+Si observamos la página de ejemplo nos daremos cuenta que tenemos un lindo mensaje en la parte inferior de la página, todo esto estará al interior de una etiqueta llamada `footer` la cual agrupará el código que vamos a incluir.
 
-Escribe lo siguiente en tu pagina web. abajo del cierre de la etiqueta `main`, ´footer´ y enter o tab para autocompletar.
+Escribe lo siguiente en tu página web. Abajo del cierre de la etiqueta `main`, ´footer´ y enter o tab para autocompletar.
 
 Luego, al interior de footer incluye lo siguiente 
 
 ```html
 <footer>
-  <h2><span>Te quiero</span><br>mamá</h2>
+  <h2><span>Todos los derechos reservados <br> ©2019</h2>
 </footer>
 ```
-Guarda y recarga la página, el final de tu pagina debería verse así.
+Guarda y recarga la página, el final de tu página debería verse así.
 
 ![](./assets/img/inicialfooter.png)
 
-
 ### Divs:
 
-Los divs son etiquetas que permiten anidar a otras etiqueta y nos permitirán darle un  estilo propio a la agrupación (esto lo haremos más adelante con CSS).
-Envuelve varias etiquetas, y todas las etiquetas envueltas por él, están bajo la influencia del div.
-vamos a añadir muchos divs en nuestra página, mucha atención:
-Primero tendremos un gran div que agrupara todos los elementos de `main`. Fíjate en el siguiente ejemplo:
+Los divs son etiquetas que permiten anidar a otras etiqueta y nos permitirán darle un estilo propio a la agrupación (esto lo haremos más adelante con CSS).
+
+Un div puede envolver varias etiquetas, y todas las etiquetas envueltas por él quedarán bajo la influencia del div.
+
+Para probar esto vamos a añadir muchos divs en nuestra página, por lo que tenemos que prestar mucha atención.
+
+Nuestro primer gran div agrupará todos los elementos de `main`. Fíjate en el siguiente ejemplo:
 
 ![gif div principal](./assets/img/divprincipal.gif)
 
 
 **Por defecto al autocompletar un `div` aparece la etiqueta `class=""`, por el momento la dejaremos vacía. Recuerda pedir ayuda a los mentores si tienes dudas.**
 
-Cada div puede indicar una clase especifica, esto servirá mas adelante para identificar el contenido de ese div y aplicarle estilo con CSS.
+Cada div puede indicar una clase específica, esto servirá más adelante para identificar el contenido de ese div y aplicarle estilo con CSS.
 
 Ya tenemos un gran `div`, ahora vamos añadir otros para segmentar nuestro código.
 
-El siguiente `div`, va agrupar de a tres las tarjetas de fotos.
-
 ![](./assets/img/divcarddeck.gif)
 
-El ejemplo añade solo tres fotos, ahora vamos añadir los otros divs para agrupar.
+El ejemplo añade sólo tres fotos, ahora vamos añadir los otros divs para agrupar.
 
-si todo salio bien tu código el la sección `main` debería verse así:
+si todo salió bien tu código debería verse así:
 
 ```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mi primera página web</title>
+</head>
+
+<body>
+    <header>
+        <h1><span>Mi primera</span><br>página web</h1>
+    </header>
     <main>
-      <div class="">
         <div class="">
-          <img src="./assets/img/img-1.png" alt="guatita">
-          <h5>Yo en la guata de mamá</h5>
-          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <img src="./assets/img/img-2.png" alt="mamáybebé">
-          <h5>Paseo al jardín Botánico</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <img src="./assets/img/img-3.png" alt="mamáymoto">
-          <h5>Aprendiendo a andar en moto</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="">
+                <img src="./assets/img/img-1.jpg" alt="cocinando">
+                <h5>Cocinando</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <img src="./assets/img/img-2.jpg" alt="arreglando">
+                <h5>Arreglando la casa</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <img src="./assets/img/img-3.jpg" alt="ejercicios">
+                <h5>Haciendo Ejercicios</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                </p>
+                
+                <img src="./assets/img/img-4.jpg" alt="haciendo el aseo">
+                <h5>Cuando hicimos el aseo "juntos"</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <img src="./assets/img/img-5.jpg" alt="en el parque">
+                <h5>Asado en el parque</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <img src="./assets/img/img-6.jpg" alt="cuentos">
+                <h5>Mis primeros cuentos</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <img src="./assets/img/img-7.jpg" alt="Halloween">
+                <h5>Fiesta de Halloween</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <img src="./assets/img/img-8.jpg" alt="cenando">
+                <h5>Cenando Juntos</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+                <img src="./assets/img/img-9.jpg" alt="ganando">
+                <h5>Cuando gané por primera vez</h5>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                
+            </div>
         </div>
-        <div class="">
-          <img src="./assets/img/img-4.png" alt="family">
-          <h5> La vez que me perdí</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </main>
+    <footer>
+        <h2><span>Todos los derechos reservados <br> ©2018</h2>
+    </footer>
+</body>
 
-          <img src="./assets/img/img-5.png" alt="family">
-          <h5>Mi caida en bicicleta</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <img src="./assets/img/img-6.png" alt="family">
-          <h5>Comida familiar en la casa de la Abuela</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
-        </div>
-
-        <div class="">
-          <img src="./assets/img/img-7.png" alt="family">
-          <h5>Mi primer encuentro con la chala</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <img src="./assets/img/img-8.png" alt="family">
-          <h5>Mi primera desilución amorosa</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <img src="./assets/img/img-9.png" alt="family">
-          <h5>Cuando se acabó el colegio</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
-        </div>        
-      </div>
-
+</html>
 ```
 Ahora vamos añadir los `divs` que estarán dentro de las tarjetas. 
 
-El primero agrupara los elementos de cada tarjeta, y luego crearemos para separar los textos de la imagen.
+El primero agrupará los elementos de cada tarjeta, y luego crearemos para separar los textos de la imagen.
 
-Haslo como en este ejemplo:
+Hazlo como en este ejemplo:
 
 ![](./assets/img/div_into.gif)
 
-
-Solo hicimos la primera tarjeta, realiza el mismo proceso para el resto. Al finalizar tu código debería verse así.
+Sólo hicimos la primera tarjeta, realiza el mismo proceso para el resto. Al finalizar tu código debería verse así.
 
 ```html
-  <main>
-      <div class="">
-        <div class="">
-          <div class="">
-            <img src="./assets/img/img-1.png" alt="guatita">
-            <div class="">
-              <h5>Yo en la guata de mamá</h5>
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </div>
-          <div class="">
-            <img src="./assets/img/img-2.png" alt="mamáybebé">
-            <div class="">
-              <h5>Paseo al jardín Botánico</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </div>
-          <div class="">
-            <img src="./assets/img/img-3.png" alt="mamáymoto">
-            <div class="">
-              <h5>Aprendiendo a andar en moto</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </div>
-        </div>
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
 
-        <div class="">
-          <div class="">
-              <img src="./assets/img/img-4.png" alt="family">
-            <div class="">
-              <h5> La vez que me perdí</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </div>
-          <div class="">
-              <img src="./assets/img/img-5.png" alt="family">
-            <div class="">
-              <h5>Mi caida en bicicleta</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </div>
-          <div class="">
-              <img src="./assets/img/img-6.png" alt="family">
-            <div class="">
-              <h5>Comida familiar en la casa de la Abuela</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </div>
-        </div>
+<head>
+    <meta charset="utf-8">
+    <title>Mi primera página web</title>
+</head>
 
+<body>
+    <header>
+        <h1><span>Mi primera</span><br>página web</h1>
+    </header>
+    <main>
         <div class="">
-          <div class="">
-              <img src="./assets/img/img-7.png" alt="family">
             <div class="">
-              <h5>Mi primer encuentro con la chala</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
+                <div class="">
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-1.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
 
-          </div>
-          <div class="">
-              <img src="./assets/img/img-8.png" alt="family">
-            <div class="">
-              <h5>Mi primera desilución amorosa</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-2.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-3.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-4.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-5.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-6.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-7.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-8.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <!--Col-->
+                    <div class="">
+                        <img src="./assets/img/img-9.jpg" alt="cocinando">
+                        <h5>Lorem ipsum dolor sit amet</h5>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+
+                </div>
             </div>
-          </div>
-          <div class="">
-              <img src="./assets/img/img-9.png" alt="family">
-            <div class="">
-              <h5>Cuando se acabó el colegio</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </div>
         </div>
-      </div>
     </main>
+    <footer>
+        <h2><span>Todos los derechos reservados <br> ©2018</h2>
+    </footer>
+</body>
 
+</html>
 ```
 
-**Genial, ya tenemos la estructura HTML de nuestra página solo nos queda darle vida y alegria como lo hizo nuestra mamá.**
-
+**Genial, ya tenemos la estructura HTML de nuestra página sólo nos queda darle vida y alegría.**
 
 
 # Capítulo 2 Darle cariño a la página
 
-Ahora vamos a saltar al diseño de nuestra página web. Porque un HTML no es nadie sin su CSS.
+Ahora vamos a trabajar en el aspecto visual de nuestra página web. Porque un HTML no es nadie sin su CSS.
 
 
 ![imagen de html css y js](./assets/img/htmlcssjs.png)
 
 Hemos aprendido algunas cosas esenciales de HTML, lo  que vendría siendo el esqueleto de nuestro sitio web, ahora le añadiremos la "piel", el diseño, y eso lo hacemos con CSS.
-
 
 # ¿Qué es CSS?
 
@@ -869,7 +959,6 @@ CSS es acrónimo de Cascading Style Sheet, o sea hojas de estilo que se pueden i
 Hay tres formas de incorporar CSS dentro de una página web.
 
 - La primera es con un conjunto de atributos y valores dentro de la etiqueta del mismo HTML.
-
 - La segunda consiste en agregar el CSS dentro del head del mismo documento HTML.
 - La tercera forma consiste en utilizar un archivo externo. 
 
@@ -885,6 +974,9 @@ Todas las instrucciones en CSS se escriben en pares propiedad: valor, para agreg
 <p style="color: red"> </p>
 ~~~
 
+>Le puedes aprovechar de preguntar su color favorito
+
+
 ## Agregando CSS en el head
 
 La segunda forma de agregar CSS consiste en agregar las propiedades y valores de CSS dentro de una etiqueta style en el head de la página
@@ -893,8 +985,8 @@ La segunda forma de agregar CSS consiste en agregar las propiedades y valores de
 <head>
   <style>
     p {
-    	color: red
-   	}
+      color: red
+    }
   </style>
 </head>
 ~~~
@@ -905,7 +997,7 @@ La sintaxis de CSS tiene la siguiente estructura:
 
 ~~~css
 etiqueta {
-	propiedad: valor;
+  propiedad: valor;
 }
 ~~~
 
@@ -916,15 +1008,16 @@ Primero creamos un archivo nuevo llamado `style.css`, este archivo contendra nue
 
 Primero crearemos una carpeta llamada `css` al interior de `assets`.
 ~~~
-	proyecto_web
-	└───index.html	  
-		└───assets
-		   └───img
-		   └───css	
-			   └───style.css
+  proyecto_web
+  └───index.html    
+    └───assets
+       └───img
+       └───css  
+         └───style.css
 ~~~
 
 Luego crearemos con **ATOM**  este nuevo archivo, botón derecho sobre la nueva carpeta creada y seleccionaremos `new file` con el nombre `style.css`
+
 El nombre no importa, lo importante es que sea `.css` para que sepa que estamos escribiendo CSS. Para decirle a nuestra página que este será el archivo que utilizaremos debemos ocupar la etiqueta *link* dentro del `<head>`.
 
 Escribiremos lo siguiente.
@@ -938,7 +1031,7 @@ Escribiremos lo siguiente.
 ~~~html
 <!DOCTYPE html><html><head>
     <meta charset="utf-8">
-    <title>Día de la madre</title>
+    <title>Mi primera página web</title>
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
 <body>
@@ -958,24 +1051,28 @@ Vamos a cambiarle el color a la letra de nuestra sección header.
 Utilizando la sintaxis:
 
 ```css 
-etiqueta {	propiedad: valor;}
+etiqueta {  
+  propiedad: valor;
+}
 ```
 
 Entonces para cambiarle el color a todo el contenido al interior de `header` vamos a añadir lo siguiente en nuestro archivo `style.css`:
 
 ```css
-  header {
+header {
   color: white;
-  background-color: #F45B69;
-  }
+  background-color: #66D34F;
+}
 ```
 
-Guarda y ve el resultado, debería verse así.
+Guarda y ve el resultado, debería verse así:
 
 ![imagen de estilo](./assets/img/colortitulos.png)
 
 Lo que hace el código anterior es tomar todas las etiquetas al interior de header y aplicarle el color blanco (Siempre debes escribir los colores en inglés).
-El color de fondo se añadio con la propiedad `background-color`.
+
+El color de fondo se añadió con la propiedad `background-color`.
+
 Vemos que ahora tenemos toda la página con un color distinto al por defecto que es blanco.
 
 Nótese también que ahora no se utilizó darle el color nombrándolo, sino que se utilizó el sistema hexadecimal.
@@ -984,15 +1081,13 @@ Más sobre colores en CSS [aquí](http://htmlcolorcodes.com/es/tutoriales/concep
 
 Elige el color que quieras para el fondo de tu página, puedes ayudarte con el siguiente selector de colores.
 
-[Color Picker](https://html-color-codes.info/codigos-de-colores-hexadecimales/)Los atributos utilizados en esta sección están modificando todos los atributos contenidos. ¿Que ocurre si necesito, modificar solo uno especifico?
+[Color Picker](https://html-color-codes.info/codigos-de-colores-hexadecimales/)Los atributos utilizados en esta sección están modificando todos los atributos contenidos. ¿Qué ocurre si necesito, modificar sólo uno específico? Para lograrlo necesitamos introducir el concepto de identificador (ID) y el de clase (class).
 
-Ahora lo sabrás:
-
-## ID y Clases
+## Id y Class
 
 Los **ID** son identificadores **únicos** para cada etiqueta, es como un nombre que se le da a la etiqueta para hacerla única.
 
-Por ejemplo se le asignará el id "parrafo1" al primer párrafo:
+Por ejemplo, se le asignará el id "parrafo1" al primer párrafo:
 
 ```html
 
@@ -1004,20 +1099,19 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 Quo dolorem dignissimos expedita repellendus ducimus natus
 possimus, molestiae architecto, aperiam officiis, amet consequatur,
  nisi. Est accusamus eum quos natus architecto modi </p>
-
 ```
 
-De esta manera yo le puedo dar estilo específico a ese párrafo y no a todos.Ahora le asigno el estilo en mi archivo miestilo.css 
+De esta manera yo le puedo dar estilo específico a ese párrafo y no a todos. Ahora le asigno el estilo en mi archivo miestilo.css 
 
 ~~~css
-#parrafo1 {	color: blue;	}
+#parrafo1 { color: blue;  }
 ~~~
 
-Ahora solo mi párrafo con id "parrafo1" tendrá el texto azul.
+Al guardar los cambios el párrafo con id "parrafo1" tendrá el texto azul.
 
-Se escribe `#` para referirse a una id , y más el nombre para saber a cuál id me estoy refiriendo.
+Se escribe `#` para referirse a una id, y más el nombre para saber a cuál id me estoy refiriendo.
 
-Pero como se mencionaba anteriormente el id es único! Pero qué pasa si se quiere asignar esa propiedad a varias etiquetas distintas?
+Pero como se mencionaba anteriormente el id es único, pero ¿qué pasa si se quiere asignar esa propiedad a varias etiquetas distintas?
 
 Para eso existen las **clases**. Las clases son parecidos a un identificador pero **no** son únicas. Esto quiere decir que varios elementos pueden tener la misma clase. Como por ejemplo:
 
@@ -1032,16 +1126,16 @@ Luego en el archivo CSS
 
 ```css
 .violeta {
-	color: violet;
+  color: violet;
 }
 ```
 
-Para referirse a las clases se se escribe un `. ` y luego el nombre que le diste a la clase en este caso `.violeta`
+Para referirse a las clases se escribe un `. ` y luego el nombre que le diste a la clase en este caso `.violeta`
 Con esto hago que dos etiquetas distintas (o cuantas yo quiera), tengan el contenido de color violeta.
 
 ### Asignando clases a nuestro proyecto
 
-Vamos añadir algunas clases a nuestros elementos, tal vez los nombres no tengan sentido para ti por el momento, mas adelante todo se arreglara.
+Vamos añadir algunas clases a nuestros elementos, tal vez los nombres no tengan sentido para ti por el momento, más  adelante todo se arreglará.
 
 1. La primera clase será en nuestro header
 
@@ -1049,154 +1143,124 @@ Vamos añadir algunas clases a nuestros elementos, tal vez los nombres no tengan
   <header class="container-fluid header">
 ```
 
-ingresamos dos clases a esta etiqueta `container-fluid` y `header`
+Ingresaremos dos clases a esta etiqueta `container-fluid` y `header`
 
 2. En nuestra etiqueta `main` añade la clase:
-	
+  
 ```html
-  <main class="container remember-cards">
+  <main class="container">
 ```
-ingresamos dos clases a esta etiqueta `container` y `remember-cards`
+Ingresaremos una clase a esta etiqueta `container`
 
-3.	El primer `div` bajo main tendra la siguiente clase:
-	
+3.  El primer `div` bajo main tendra la siguiente clase:
+  
 ```html
   <div class="row">
 ```
 
-ingresamos la clases `row` a esta estiqueta que envuelve todos los otros divs.
-	
-4. El div que agrupa 3 tarjetas llevara la siguiente clase:
-	
+Ingresaremos la clases `row` a esta etiqueta que envuelve todos los otros divs.
+  
+4. El div que agrupa 3 tarjetas llevará la siguiente clase:
+  
 ```html
-	<div class="card-deck">
+  <div class="col-md-4">
 ```
-  ingresamos la clases `card-deck` a esta estiqueta.
-
-5.	El div que envuelve a la tarjeta llevara la clase:
-	
-```html
-  <div class="card">	
-```
-
-Esta clase se repite en todos los divs que agrupan las imagenes, el div y los textos de la tarjeta.
-
-6.	Todas las imagenes llevaran la clase:
-	
-```html
-	<img class="card-img-top">
-```
-
-7.	El div que agrupa los textos de las tarjetas llevara:
-	
-```html
-	<div class="card-body">
-```
-
-8. todos los `h5` llevaran la etiqueta
-
-```html
-		<h5 class="card-title">
-```
-9.	Todos los `p` llevaran la etiqueta:
-	
-```html
-  <p class="card-text">
-```
+ 
+ Ingresamos la clases `col-md-4` a esta etiqueta.
 
 Si añadiste todas las etiquetas de forma correcta tu código debería verse así:
 
 ```html
-<body>
-  <!-- Header -->
-  <header class="container-fluid header">
-    <h1>
-      <span>Mis recuerdos con </span><br>mamá</h1>
-  </header>
-  <main class="container remember-cards">
-    <div class="row">
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="assets/img/img-1.png" alt="imagen día de la mamá">
-          <div class="card-body">
-            <h5 class="card-title">Yo en la guata de mamá</h5>
-            <p class="card-text">Euismod dui mi ligula imperdiet morbi fames massa bibendum, ac taciti interdum est ullamcorper eu inceptos ridiculus, pretium sociis dis mollis dapibus lectus vulputate.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="assets/img/img-2.png" alt="imagen día de la mamá">
-          <div class="card-body">
-            <h5 class="card-title">Paseo al jardín Botánico</h5>
-            <p class="card-text">Donec torquent ac sed tortor sodales magna, vestibulum inceptos volutpat nostra parturient maecenas, turpis nulla tristique eget ante.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="assets/img/img-3.png" alt="imagen día de la mamá">
-          <div class="card-body">
-            <h5 class="card-title">Aprendiendo a andar en moto</h5>
-            <p class="card-text">Pharetra ligula fringilla suscipit facilisi vel luctus mus donec lobortis, felis justo sapien rhoncus placerat parturient ornare aptent.</p>
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>Mi primera página web</title>
+      <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+      <header class="container-fluid header">
+        <h1>Mi primera<br>página web</h1>
+      </header>
 
-          </div>
-        </div>
+    <main class="container">
+    <div class="row">
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-1.jpg" class="img-fluid" alt="">
+        <h5>Aliquet lectus sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
       </div>
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="assets/img/img-4.png" alt="imagen día de la mamá">
-          <div class="card-body">
-            <h5 class="card-title">La vez en que me perdí</h5>
-            <p class="card-text">Morbi ultrices odio semper a fames gravida, magnis blandit enim curabitur imperdiet suscipit, praesent auctor facilisi nam rhoncus.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="assets/img/img-5.png" alt="imagen día de la mamá">
-          <div class="card-body">
-            <h5 class="card-title">Mi caída en bicicleta</h5>
-            <p class="card-text">Donec magna accumsan molestie torquent congue feugiat, per bibendum mus laoreet eget ridiculus, facilisi vel parturient non facilisis.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="assets/img/img-6.png" alt="imagen día de la mamá">
-          <div class="card-body">
-            <h5 class="card-title">Comida familiar en la casa de mi abuela </h5>
-            <p class="card-text">Tellus etiam quisque ligula eu fusce magnis inceptos scelerisque varius, nec elementum consequat nisi vulputate suscipit lacinia integer.</p>
-          </div>
-        </div>
+      <!--/Col-->
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-2.jpg" class="img-fluid" alt="">
+        <h5>Aliquet lectus sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
       </div>
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="assets/img/img-7.png" alt="imagen día de la mamá">
-          <div class="card-body">
-            <h5 class="card-title">Mi primer encuentro con la chala</h5>
-            <p class="card-text">Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="assets/img/img-8.png" alt="imagen día de la mamá">
-          <div class="card-body">
-            <h5 class="card-title">Mi primera desilución amorosa</h5>
-            <p class="card-text">Eu sollicitudin eros aliquet aptent quisque hac, malesuada mollis facilisis a interdum phasellus, pellentesque vehicula feugiat. elementum ligula.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img class="card-img-top" src="assets/img/img-9.png" alt="imagen día de la mamá">
-          <div class="card-body">
-            <h5 class="card-title">Cuando se acabó el colegio</h5>
-            <p class="card-text">Purus massa turpis auctor vel litora potenti, ultrices velit eu leo sodales consequat, class urna convallis neque malesuada.</p>
-          </div>
-        </div>
+      <!--/Col-->
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-3.jpg" class="img-fluid" alt="">
+        <h5>Aliquet lectus sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
       </div>
+      <!--/Col-->
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-4.jpg" class="img-fluid" alt="">
+        <h5>Aliquet lectus sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
+      </div>
+      <!--/Col-->
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-5.jpg" class="img-fluid" alt="">
+        <h5>Aliquet sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
+      </div>
+      <!--/Col-->
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-6.jpg" class="img-fluid" alt="">
+        <h5>Aliquet lectus sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
+      </div>
+      <!--/Col-->
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-7.jpg" class="img-fluid" alt="">
+        <h5>Aliquet lectus sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
+      </div>
+      <!--/Col-->
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-8.jpg" class="img-fluid" alt="">
+        <h5>Aliquet lectus sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
+      </div>
+      <!--/Col-->
+      <!--Col-->
+      <div class="col-md-4">
+        <img src="assets/img/img-9.jpg" class="img-fluid" alt="">
+        <h5>Aliquet lectus sollicitudin nulla libero</h5>
+        <p>Aliquet lectus sollicitudin nulla libero diam luctus pharetra tempor maecenas, per tellus etiam class purus quam et mus</p>
+      </div>
+      <!--/Col-->
     </div>
   </main>
-    <footer>
-        <h2><span>Te quiero</span><br>mamá</h2>
-    </footer>
 
+
+    <footer>
+        <h2><span>Todos los derechos reservados <br> ©2018</h2>
+    </footer>
+  </body>
+</html>
 ```
 
-Ahora que nuestro código esta completamente identificado con clases. Vamos a seguir modificando las propiedades de estilo.
-
-
-Ahora vamos a explicar algunos efectos que vamos añadir mas adelante.
+Ahora que nuestro código está completamente identificado con clases. Vamos a seguir modificando las propiedades de estilo.
+Vamos a explicar algunos efectos que vamos añadir más adelante.
 
 ### Tamaño de la fuente
 
@@ -1209,44 +1273,42 @@ Para cambiar la tipografía de una marca debemos ocupar la propiedad font-family
 
 ~~~css
 body{ 
-  font-family: "Times New Roman", Georgia, Serif; 
-  }
+  font-family: "Times New Roman", Georgia, Serif; 
+}
 ~~~
 
-font family acepta diversas tipografías simultáneamente a modo de fallback, o sea si una tipografía falla en cargar se cargará la siguiente, si una de los nombres de la tipografía tiene espacios entre medio hay que agregarla entre comillas `" "`
+*font family* acepta diversas tipografías simultáneamente a modo de fallback, o sea si una tipografía falla en cargar, se cargará la siguiente, si una de los nombres de la tipografía tiene espacios entre medio hay que agregarla entre comillas `" "`
 
 ### Googlefonts 
 
-Vamos a utilizar googleFonts para nuestras tipografías:
+Vamos a utilizar Google Fonts para nuestras tipografías:
 [https://www.google.com/fonts](https://fonts.google.com/)
 
-Es una página web que permite cargar de forma sencilla diversas tipografías no tan comunes dentro de tu sitio,
+Es una página web que permite cargar de forma sencilla diversas tipografías no tan comunes dentro de tu sitio.
 
 Para utilizarla debes hacer click en la opción `select this font` de la fuente respectiva, luego seleccionar los pesos de la fuente.
 
-Importar la fuente dentro del HTML o dentro del CSS, por ejemplo si quisiéramos importar open sans dentro del HTML sería:
+Importar la fuente dentro del HTML o dentro del CSS, por ejemplo si quisiéramos importar Open Sans dentro del HTML sería:
 
 ~~~html
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 ~~~
 
-y finalmente utilizarla en nuestro archivo miestilo.css
+Y luego degemos agregarla a nuestro archivo style.css
 
 ~~~css
 body {
   font-family: 'Open Sans', sans-serif;
-  }
+}
 ~~~
 
-Para hacerlo mas facil puedes pegar lo siguiente en tu archivo html y css para obtener las tipografias esperadas.
+Para hacerlo más  facil puedes pegar lo siguiente en tu archivo HTML y CSS para obtener las tipografías esperadas.
 
 ```html
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Día de la madre</title>
-  <!-- Bootstrap CSS 4.1.1 -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <title>Mi primera página web</title>
   <!-- Google Fonts | Raleway | Roboto Slab -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:200,900|Roboto+Slab:300,400" rel="stylesheet">
   <!-- Main Styles -->
@@ -1262,39 +1324,31 @@ Se puede aplicar estilo de muchas formas, y además existen muchas propiedades y
 Este ejemplo agrupa todo lo que hemos mencionado y algunas cosas que explicaremos a continuación.
 
 ```css
-
-.header {
-  background-color: #F45B69;
+header {
+  background-color: #66D34F;
   color: white;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  height: 300px;
 }
 
-.header h1 {
+header h1 {
   font-size: 100px;
   font-weight: 900;
   text-transform: uppercase;
 }
 
-.header span {
+header span {
   font-size: 50px;
   font-weight: 300;
 }
 
-/* Remenber Cards */
-
-.remember-cards {
-  padding: 30px 10px;
-  font-family: 'Roboto Slab', serif;
+img {
+  margin-bottom: 10px;
 }
 
-.card {
-  margin-top: 40px;
-}
-
-.card-text {
+p{
   font-weight: 300;
+  font-family: 'Roboto Slab', serif;
 }
 
 /* Footer */
@@ -1307,38 +1361,35 @@ Este ejemplo agrupa todo lo que hemos mencionado y algunas cosas que explicaremo
   height: 200px;
 }
 
-.footer h2 {
+footer h2 {
   font-size: 50px;
   font-weight: 900;
   text-transform: uppercase;
   padding-top: 30px;
 }
 
-.footer span {
+footer span {
   font-size: 25px;
   font-weight: 300;
 }
-
 ```
 
-Hay muchas propiedades en CSS, [aquí](http://www.mclibre.org/consultar/htmlcss/css/css_propiedades.html) un listado de algunas. Dado el tiempo de esta actividad, solo repasaremos las vistas hasta ahora.
+Hay muchas propiedades en CSS, [aquí](http://www.mclibre.org/consultar/htmlcss/css/css_propiedades.html) un listado de algunas. Dado el tiempo de esta actividad, sólo repasaremos las vistas hasta ahora.
 
 ## Recapitulemos 
 
 Si has ido siguiendo las instrucciones, tu página ya debería verse mucho mejor desde cuando comenzamos.
-Hemos aprendido y celebrado de forma divertida con nuestra mama.
 
-![](https://media.giphy.com/media/3o6UBhjHobLFgEmrJu/giphy-downsized.gif)
+Hemos aprendido y celebrado de forma divertida.
 
+![](assets/leo.gif)
 
 ********
 
-
 # Capítulo 3
-
 ## Desafío 
 
-Hasta el momento hemos aprendido muchas cosas acerca de las páginas web, pero nuestro viaje recién comienza, Ahora te enseñaremos acerca de un Framework llamado Bootstrap. Con el podremos hacer muchas mejoras a nuestros sitios webs.
+Hasta el momento hemos aprendido muchas cosas acerca de las páginas web, pero nuestro viaje recién comienza, ahora te enseñaremos acerca de un Framework llamado Bootstrap. Con él, podremos hacer muchas mejoras a nuestros sitios webs.
 
 Primero te explicaremos sus funcionalidades básicas y luego lo aplicaremos a nuestro sitio recién creado.
 
@@ -1357,39 +1408,44 @@ Bootstrap es el framework más popular para el desarrollo de sitios responsive e
 
 **Less** Leaner Style Sheets, Cumple la misma función que SaSS son herramientas que compiten entre ellas y sus funciones son muy similares pero la sintaxis cambia.
 
-### Desventajas de Bootstrap
-
-Utilizar Bootstrap completamente por defecto y no personalizarlo da un toque genérico a la página, hay muchos sitios construidos con este framework por lo que si no lo personalizamos se ve igual a los otros.
-
 ### Utilizando Bootstrap
 
->Observación: En esta guía se estará utilizando la versión **v4.0** de Bootstrap
+>Observación: En esta guía se estará utilizando la versión **v4.1.1** de Bootstrap y no es compatible con versiones anteriores.
 
 Para integrar Boostrap a nuestro proyecto, hay dos formas, la primera es el utilizar un [CDN](https://www.bootstrapcdn.com/), la segunda descargando los archivos.
 
-El CDN consiste simplemente en 2 archivos CSS y un archivo JS de bootstrap y Jquery, estos deben ser linkeados en la página HTML donde se utilizaran.
+El CDN consiste simplemente en 2 archivos CSS y un archivo JS de Bootstrap y jQuery, estos deben ser linkeados en la página HTML donde se utilizarán.
 
 >Un CDN es una especie de página web para descargar contenido,
->pero está optimizada para la descarga rápida de assets, además>que los CDN tienen servidores en diversas partes del mundo>disminuyendo el impacto en la velocidad por distancia.
+>pero está optimizada para la descarga rápida de assets, además que los CDN tienen servidores en diversas partes del mundo disminuyendo el impacto en la velocidad por distancia.
 
 
-### Añade bootstrap a tu proyecto y ve como se transforma.
+### Añade Bootstrap a tu proyecto y ve como se transforma.
 
 Durante la construcción del curso utilizamos muchas clases que aun no estamos utilizando, y claro, nuestro sitio no se ve como el de la foto.
 
-Lo que nos falta es: ***Decirle a nuestra mamá que la amamos mucho** y añadir bootstrap.
+Lo que nos falta es añadir Bootstrap.
 
-Para hacerte la vida mucho mas fácil, sigue los siguientes pasos:
+Para hacerte la vida mucho más  fácil, sigue los siguientes pasos:
 
-
-1.	 Primero en `index.html` añade la siguiente linea en tu `head`
+1.   Primero en `index.html` agrega los siguientes elementos hasta que tu `head` quede así:
 
 ```html
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página web</title>
+    <!-- Bootstrap CSS 4.1.1 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- Google Fonts | Raleway | Roboto Slab -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,900|Roboto+Slab:300,400" rel="stylesheet">
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
 ```
-Esta línea le indicara al navegador como se debe comportar con tu página.
+Esta línea le indicará al navegador como se debe comportar con tu página.
 
-2.	Segundo bajo el footer añade las siguientes líneas:
+2.  Segundo bajo el footer añade las siguientes líneas:
 
 ```html
   <!-- Jquery 3.3.1 -->
@@ -1400,17 +1456,15 @@ Esta línea le indicara al navegador como se debe comportar con tu página.
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
 ```
-Con esto estamos diciéndole a nuestro proyecto que descargue boostrap, los requisitos que necesita.
+Con esto estamos diciéndole a nuestro proyecto que descargue Boostrap, los requisitos que necesita. Con todo esto correctamente puesto en nuestra página, guarda tu archivo y recarga.  Si todo salió bien, debería verse como la imagen mostrada al inicio.
 
-Con todo esto correctamente puesto en nuestra página. guarda tu archivo y recarga la página.  Si todo salió bien, debería verse como la pagina mostrada al inicio.
+***¡ Mucho éxito !***
 
-***¡ Mucho Éxito !***
+## Si terminaste, Apoya a tus compañer@s para que puedan aprender y mejorar sus páginas.
 
+### Aproveche de decirle a su madre que la quiere. 
 
-
-![](https://media1.tenor.com/images/4f586b8d5cdc536ada9889b58e6d91e8/tenor.gif?itemid=5131908)
-
-## Gracias por participar
-
+![Cheers](assets/chayanne.gif)
+##¡Un abrazo a todas las madres en su día!
 
 
