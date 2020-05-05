@@ -742,7 +742,7 @@ Luego, al interior de footer incluye lo siguiente
 
 ```html
 <footer>
-  <h2><span>Todos los derechos reservados <br> ©2019</h2>
+  <h2><span>Todos los derechos reservados <br> ©2020</h2>
 </footer>
 ```
 Guarda y recarga la página, el final de tu página debería verse así.
@@ -1465,6 +1465,7 @@ Con esto estamos diciéndole a nuestro proyecto que descargue Boostrap, los requ
 ### Aproveche de decirle a su madre que la quiere. 
 
 ![Cheers](assets/chayanne.gif)
+
 ##¡Un abrazo a todas las madres en su día!
 
 
